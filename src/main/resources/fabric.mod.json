@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hk_3",
+	"version": "${version}",
+	"name": "HK_3",
+	"description": "Тестові моди для ХордКарі 3",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://HK_3",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/hk_3/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.hk_3.HK_3"
+		],
+		"fabric-datagen": [
+			"com.hk_3.HK_3DataGenerator"
+		],
+		"client": [
+			"com.hk_3.HK_3Client"
+		]
+	},
+	"mixins": [
+		"hk_3.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

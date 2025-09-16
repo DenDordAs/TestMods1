@@ -12,6 +12,6 @@ public class HK_3 implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Привіт фабрик світ!");
 	}
 }

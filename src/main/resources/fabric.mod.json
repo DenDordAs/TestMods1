@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.hk_3.HK_3"
+          "com.hk_3.HK3"
 		],
 		"fabric-datagen": [
-			"com.hk_3.HK_3DataGenerator"
+          "com.hk_3.HK3DataGenerator"
 		],
 		"client": [
-			"com.hk_3.HK_3Client"
+          "com.hk_3.HK3Client"
 		]
 	},
 	"mixins": [
